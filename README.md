@@ -1,10 +1,3 @@
-Perfect — here’s a **clean and professional `README.md`** template for your `snatch-app-releases` GitHub repo.
-
-It explains what the repo is for, how each release is structured, and how your backend + app use it.
-You can copy-paste this directly as your `README.md` file 👇
-
----
-
 ## 🧾 `README.md` for **snatch-app-releases**
 
 ```markdown
