@@ -114,9 +114,3 @@ Cross-Platform App Developer (Flutter + Node.js)
 
 ```
 
----
-
-Would you like me to tweak it to look **more professional (like an open-source project style)** with badges (e.g., Flutter version, license, build status)?  
-It’ll make your repo look more credible if you plan to share it publicly.
-```
-
