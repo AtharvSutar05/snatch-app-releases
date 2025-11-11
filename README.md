@@ -1,6 +1,3 @@
-## 🧾 `README.md` for **snatch-app-releases**
-
-```markdown
 # 📦 Snatch App Releases
 
 This repository hosts **official release builds** of the **Snatch Flutter app**, used for version distribution and in-app update checks.
