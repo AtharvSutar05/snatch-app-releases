@@ -6,6 +6,14 @@ The APKs published here are **signed release builds**, generated using Flutter�
 
 ---
 
+## 🛠️ Tech Stack
+
+* **Frontend:** Flutter
+* **Backend - https://github.com/AtharvSutar05/SnatchBE** <ul><li> Node.js (Express) deployed on Render</li></ul>
+* **Hosting:** GitHub Releases for APK distribution 
+
+---
+
 ## 🚀 How it works
 
 1. Each version of the app is published as a **GitHub Release**.  
@@ -43,9 +51,9 @@ https://<your-render-app>.onrender.com/latest
 
 ## 🗂️ Version History
 
-| Version    | Build | Date     | Description                                                                  |
-| ---------- | ----- | -------- | ---------------------------------------------------------------------------- |
-| **v1.0.0** | 1     | Nov 2025 | Initial release with meeting creation, joining, and real-time communication. |
+| Version    | Build | Date     | Description                                                                    |
+| ---------- | ----- | -------- | ----------------------------------------------------------------------------   |
+| **v1.0.0** | 1     | Nov 2025 | Initial release with meeting creation, joining, and real-time communication.<br> (Supports up to 3 members in a single meeting) |
 
 ---
 
@@ -55,51 +63,7 @@ https://<your-render-app>.onrender.com/latest
 
 ---
 
-## 🧠 Notes for Developers
-
-* New releases should follow the naming convention:
-
-  * Tag: `vX.Y.Z`
-  * File: `app-release.apk`
-* After publishing a new release, update your backend’s `/latest` response to point to the new version URL.
-* To verify file integrity, compute the SHA-256 hash:
-
-  ```bash
-  shasum -a 256 build/app/outputs/flutter-apk/app-release.apk
-  ```
-
-  or (Windows PowerShell):
-
-  ```powershell
-  Get-FileHash -Algorithm SHA256 build\app\outputs\flutter-apk\app-release.apk
-  ```
-
----
-
-## 🧩 Example Backend Response
-
-```json
-{
-  "version": "1.1.0",
-  "buildNumber": 2,
-  "mandatory": false,
-  "url": "https://github.com/AtharvSutar05/snatch-app-releases/releases/download/v1.1.0/app-release.apk",
-  "sha256": "abc123...",
-  "changelog": "• Improved performance\n• Fixed minor bugs"
-}
-```
-
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** Flutter
-* **Backend:** Node.js (Express) deployed on Render
-* **Hosting:** GitHub Releases for APK distribution
-
----
-
-## 🧑‍💻 Maintainer
+## Maintainer
 
 **Atharv Sutar**
 Cross-Platform App Developer (Flutter + Node.js)
